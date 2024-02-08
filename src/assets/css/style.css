@@ -1,0 +1,47 @@
+body{
+    background-color: #3a3a3a;
+    color: rgb(0, 0, 0);
+    font: 1em sans-serif;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    width: 100vw;
+    height: auto;
+    font-family: 'roboto-c';
+}
+
+
+@font-face {
+    font-family: 'roboto-c';
+    src: url("/src/assets/fnt/impact.ttf");
+  }
+  
+
+
+canvas{
+    width: 100vw;
+}
+
+@media screen and (orientation:portrait) { 
+    canvas{
+        height: auto;
+        width: 100vw;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (orientation:landscape) { 
+    canvas{
+  
+        height: auto;
+        width: 100vw;
+        
+    }
+
+    body{
+        text-align: center;
+        margin:auto;
+    }
+}

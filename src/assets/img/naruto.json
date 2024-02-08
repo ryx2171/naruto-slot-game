@@ -1,0 +1,37 @@
+﻿{"frames": {
+
+"naruto0000":
+{
+	"frame": {"x":5,"y":5,"w":765,"h":562},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":765,"h":562},
+	"sourceSize": {"w":765,"h":562}
+},
+"naruto_b0000":
+{
+	"frame": {"x":775,"y":5,"w":765,"h":562},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":765,"h":562},
+	"sourceSize": {"w":765,"h":562}
+}},
+
+
+"animations": {
+	"img": [
+			
+			"naruto0000",
+			"naruto_b0000"
+	]
+},
+
+"meta": {
+	"app": "Adobe Animate",
+	"version": "22.0.0.93",
+	"image": "naruto.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1024},
+	"scale": "1"
+}
+}
